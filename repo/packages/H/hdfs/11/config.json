@@ -117,7 +117,7 @@
         "cpus":{
           "description":"Name node CPU requirement",
           "type":"number",
-          "default": 0.3
+          "default": 1.0
         },
         "mem":{
           "description":"Name node memory requirement",
@@ -174,7 +174,7 @@
         "cpus":{
           "description":"Data node CPU requirement",
           "type":"number",
-          "default": 0.3
+          "default": 1.0
         },
         "mem":{
           "description":"Data node memory requirement",
@@ -184,7 +184,7 @@
         "disk":{
           "description":"Data node disk size requirement in MB",
           "type":"number",
-          "default": 5000
+          "default": 50000
         },
         "disk_type":{
           "description":"Data node disk type",

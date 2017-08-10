@@ -2,7 +2,7 @@
   "assets": {
     "container": {
       "docker": {
-        "image": "debasishg/cp-kafka-connect:3.2.2"
+        "image": "lightbend/cp-kafka-connect:3.2.2"
       }
     }
   },

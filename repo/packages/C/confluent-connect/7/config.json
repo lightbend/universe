@@ -56,6 +56,16 @@
       },
       "required": ["cpus", "mem", "instances", "name"],
       "type": "object"
+    },
+    "hdfs": {
+      "description": "Connect-HDFS configuration properties",
+      "type": "object",
+      "properties": {
+        "config-url": {
+          "type": "string",
+          "description": "Base URL that serves HDFS config files (hdfs-site.xml, core-site.xml).  If not set, DCOS Connect will use its default configuration and read from DCOS HDFS."
+        }
+      }
     }
   },
   "type": "object"
